@@ -8,7 +8,7 @@ function App() {
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // User Login info
+  // User Login info db
   const database = [
     {
       username: "user1",
