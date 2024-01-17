@@ -6,6 +6,7 @@ import CameraRegistration from './pages/cameraRegistration';
 import SignupPage from './pages/signup';
 import LoginPage from './pages/login';
 import "./styles.css";
+import ForgotPasswordPage from './pages/forgotpassword';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,8 @@ root.render(
         <Route path="/cameraRegistration" element={<CameraRegistration/>} />
         <Route path="/signup" element={<SignupPage/>} />
         <Route path="/login" element={<LoginPage/>} />
+        <Route path="/forgotpassword" element={<ForgotPasswordPage/>} />
+
       </Routes>
     </React.StrictMode>
   </Router>

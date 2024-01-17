@@ -14,9 +14,11 @@ const Navbar = () => {
         </Content>
         <Auth>
             <SignInBtn>
-                <a href='../login.js'>SIGN IN</a>
+                <a href='login'>SIGN IN</a>
                 </SignInBtn>
-            <Register>REGISTER</Register>
+            <Register>
+            <a href='signup'>REGISTER</a>
+            </Register>
         </Auth>
     </Main>
   )
