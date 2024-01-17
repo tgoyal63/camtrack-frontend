@@ -1,0 +1,80 @@
+body {
+  font-family: 'Tenor sans', sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginContainer {
+  width: 350px;
+  padding: 30px;
+  margin: 50px 100px auto;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container p {
+  text-align: center;
+}
+
+.login-logo {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.passwordRemember {
+  display: flex;
+  justify-content: space-between;
+}

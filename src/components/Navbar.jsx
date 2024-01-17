@@ -4,9 +4,7 @@ import styled from "styled-components";
 const Navbar = () => {
   return (
     <Main>
-        <Logo>
-            CAMTRACK
-        </Logo>
+            <img src="logo.png" className='logo'/>
         <Content>
             <Item>HOME</Item>
             <Item>ABOUT</Item>
@@ -24,11 +22,8 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
 
-const Logo = styled.div`
-    font-size: 16px;
-`;
 
 const Content = styled.div`
     display: flex;

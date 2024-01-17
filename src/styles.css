@@ -9,6 +9,10 @@
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     background-color: #f8f9fd;
   }
+
+  .logo {
+    width: 15%;
+  }
   
   input[type="text"],
   input[type="password"] {
